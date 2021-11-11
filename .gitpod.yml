@@ -6,6 +6,6 @@ tasks:
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 5001
+  - port: 8001
   - port: 3001
     onOpen: open-preview
