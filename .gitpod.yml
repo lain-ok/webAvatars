@@ -1,8 +1,8 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - before: sudo apt-get install npm -y
-    init: sudo npm i -g browser-sync
-    command: echo 'browser-sync start -s --https --no-open --port=5001'
+  - before: sudo apt-get python3
+    init: echo 'python3 -m http.server 8001'
+    #command: 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
