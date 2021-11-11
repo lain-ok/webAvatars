@@ -2,6 +2,7 @@
 tasks:
   - init: |
     echo 'init script' # runs during prebuild
+    1
     echo 'sudo apt-get install npm'
     echo 'sudo npm i -g browser-sync'
     echo 'browser-sync start -s --https --no-open --port=5001'
