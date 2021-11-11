@@ -1,8 +1,8 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: echo 'init script' # runs during prebuild
-  - init: sudo apt-get install npm
-    command: sudo npm i -g browser-sync
+    command: echo 'sudo apt-get install npm'
+    command: echo 'sudo npm i -g browser-sync'
     command: echo 'browser-sync start -s --https --no-open --port=5001'
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
